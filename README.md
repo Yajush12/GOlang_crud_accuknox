@@ -29,7 +29,7 @@ which request ->
 To test the program use :
 1) use "go run main.go" command in terminal
 2) use postman on address
-    localhost:8000/endpoint_name
+    "localhost:8000/endpoint_name"
 use the endpoints mentioned above in place of endpoint_name and mention all the requested stuff as JSON in the body of the request.
 
 
