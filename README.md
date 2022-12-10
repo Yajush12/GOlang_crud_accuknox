@@ -15,7 +15,7 @@ Some of its functionalities/endpoints include:
  Its response is :
   Session Id as sid     string
    
-3) addNote - which request
+3) addNote - which request : 
   Sid 	string	, 
 	Note	string	
 
