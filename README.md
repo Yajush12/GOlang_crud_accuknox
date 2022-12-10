@@ -35,13 +35,13 @@ use the endpoints mentioned above in place of "endpoint_name" and mention all th
 
 Table Schema :
 
-Table 1 - User
-UserId		string	primaryKey, 
-Email		string 	unique, 
-Password	string, 	 
-Sid			string	unique, 
+Table 1 - User -> 
+UserId	:	string	primaryKey, 
+Email	:	string 	unique, 
+Password :	string, 	 
+Sid	:		string	unique, 
 
-Table 2 - Notes
-UserId		string	ForeignKey, 
-Nid			string	primaryKey, 
-Notes		string
+Table 2 - Notes ->
+UserId	:	string	ForeignKey, 
+Nid	:		string	primaryKey, 
+Notes	:	string
