@@ -4,26 +4,26 @@ This is a rest api developed in go language which listen and serve on port 8000.
 Some of its functionalities/endpoints include:
 
 1) signup - 
-which request :
+which request ->
   UserId:	string, 
 	Email	:	string, 
 	Password:	string, 
   
-2) login - which request :
+2) login - which request -> 
   Email	:	string, 
   Password :	string
   
- Its response is :
+ Its response is ->
   Session Id as sid   :  string
    
-3) addNote - which request : 
+3) addNote - which request -> 
   Sid 	: string	, 
 	Note	: string	
 
-4) getNotes - which request :
+4) getNotes - which request ->
   Sid	:	string
  
- Its response is :
+ Its response is ->
   An array containing all notes. UserId, NoteId, Note of the given user as JSON
 
 To test the program use :
